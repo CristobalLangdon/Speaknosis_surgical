@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="path/to/your/styles.css">
+<title>Speaknosis - Transcripción Médica y Reportes Quirúrgicos</title>
+</head>
+<body>
+
+<header>
+  <h1>Speaknosis</h1>
+  <p>Asistente de Transcripción Médica y Reportes Quirúrgicos</p>
+</header>
+
+<main>
+  <form id="report-form">
+    <section id="informacion-general">
+      <h2>Información General</h2>
+      
+      <label for="fecha-cirugia">Fecha de la Cirugía:</label>
+      <input type="date" id="fecha-cirugia" name="fecha-cirugia"><br>
+      
+      <label for="hora-inicio">Hora de Inicio de la Intervención:</label>
+      <input type="time" id="hora-inicio" name="hora-inicio"><br>
+      
+      <label for="hora-finalizacion">Hora de Finalización de la Intervención:</label>
+      <input type="time" id="hora-finalizacion" name="hora-finalizacion"><br>
+      
+      <label for="nombre-cirujano">Nombre del Cirujano:</label>
+      <input type="text" id="nombre-cirujano" name="nombre-cirujano"><br>
+      
+      <label for="nombre-paciente">Nombre del Paciente:</label>
+      <input type="text" id="nombre-paciente" name="nombre-paciente"><br>
+      
+      <label for="historia-clinica">Número de Historia Clínica:</label>
+      <input type="text" id="historia-clinica" name="historia-clinica"><br>
+      
+      <label for="tipo-cirugia">Tipo de Cirugía a Realizar:</label>
+      <input type="text" id="tipo-cirugia" name="tipo-cirugia"><br>
+      
+      <label for="lado-cirugia">Lado de la Cirugía (derecho/izquierdo):</label>
+      <input type="text" id="lado-cirugia" name="lado-cirugia"><br>
+    </section>
+
+    <section id="preparacion-area-operatoria">
+      <h2>Preparación del Quirúrgica</h2>
+      
+      <label for="descripcion-Preoperatoria">Descripción de la tecnica anestesica y check list quirurgico:</label>
+      <textarea id="descripcion-antisepsia" name="descripcion-antisepsia"></textarea><br>
+    </section>
+
+    <section id="detalles-procedimiento-quirurgico">
+      <h2>Detalles del Procedimiento Quirúrgico</h2>
+      
+      <label for="via-abordaje">Vía de Abordaje:</label>
+      <textarea id="via-abordaje" name="via-abordaje"></textarea><br>
+
+      <label for="Descripción Cirugía">Descripción detallada de la tecnica quirurgica:</label>
+      <textarea id="instrumental-maniobra" name="instrumental-maniobra"></textarea><br>
+
+      <label for="imprevistos-hallazgos">Imprevistos, Hallazgos, Accidentes y Complicaciones:</label>
+      <textarea id="imprevistos-hallazgos" name="imprevistos-hallazgos"></textarea><br>
+
+      <label for="modificaciones-estrategia">Modificaciones a la Estrategia o Técnica Quirúrgica:</label>
+     <textarea id="modificaciones-estrategia" name="modificaciones-estrategia"></textarea><br>
+
+     <label for="tecnicas-hemostasis">Técnicas de Hemostasis Utilizadas:</label>
+     <textarea id="tecnicas-hemostasis" name="tecnicas-hemostasis"></textarea><br>
+
+     <label for="tecnica-sutura">Técnica de Sutura Empleada (incluyendo planos suturados y material utilizado):</label>
+     <textarea id="tecnica-sutura" name="tecnica-sutura"></textarea><br>
+
+     <label for="muestras-cultivo">Muestras para Cultivo (si se envían):</label>
+     <textarea id="muestras-cultivo" name="muestras-cultivo"></textarea><br>
+
+     <label for="material-biopsia">Material para Biopsia (si se envía):</label>
+     <textarea id="material-biopsia" name="material-biopsia"></textarea><br>
+
+     <label for="grado-dificultad">Grado Estimado de Dificultad Operatoria:</label>
+     <textarea id="grado-dificultad" name="grado-dificultad"></textarea><br>
+      
+    </section>
+
+    <button type="submit">Generar Reporte Quirúrgico</button>
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2023 Speaknosis - Todos los derechos reservados</p>
+</footer>
+
+<script src="path/to/your/script.js"></script>
+</body>
+</html>
